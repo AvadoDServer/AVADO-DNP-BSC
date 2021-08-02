@@ -1,0 +1,39 @@
+{
+  "name": "bsc.avado.dnp.dappnode.eth",
+  "version": "0.0.1",
+  "upstream": "mainnet-fastlane-v0.20.3",
+  "title": "BSC node",
+  "description": "BSC node",
+  "avatar": "/ipfs/QmYRmFCtdXvqq3drc6kBXxeWiiMatTfKVpVrmLX883cQbR",
+  "type": "service",
+  "autoupdate": true,
+  "image": {
+    "path": "bsc.avado.dnp.dappnode.eth_0.0.1.tar.xz",
+    "hash": "/ipfs/Qmag9yGxm47Bvvz7K3t9wQCZp6j28rgzR9veg6vSqmDrvn",
+    "size": 21992884,
+    "restart": "always",
+    "environment": [
+      "EXTRA_OPTS"
+    ],
+    "ports": [
+      "80:80",
+      "443:443",
+      "8545:8545",
+      "8546:8546",
+      "8547:8547",
+      "30303:30303/tcp",
+      "30303:30303/udp"
+    ],
+    "volumes": [
+      "data:/package/data"
+    ]
+  },
+  "author": "AVADO",
+  "license": "(C)",
+  "links": {
+    "OnboardingWizard": "http://bsc.avadopackage.com",
+    "Wallet": "https://bsc.avadopackage.com",
+    "RPC": "https://bsc.avadopackage.com"
+  },
+  "builddate": "2021-08-02T17:47:11.248Z"
+}
