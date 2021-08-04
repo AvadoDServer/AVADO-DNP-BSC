@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   bsc.avado.dnp.dappnode.eth:
-    image: 'bsc.avado.dnp.dappnode.eth:0.0.1'
+    image: 'bsc.avado.dnp.dappnode.eth:0.0.2'
     build:
       context: ./build
       args:
@@ -11,7 +11,6 @@ services:
     volumes:
       - 'data:/package/data'
     ports:
-      - '80:80'
       - '443:443'
       - '8545:8545'
       - '8546:8546'
