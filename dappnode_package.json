@@ -1,6 +1,6 @@
 {
   "name": "bsc.avado.dnp.dappnode.eth",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "upstream": "1.1.0",
   "title": "BSC node",
   "description": "Binance Smart Chain (BSC) is a blockchain network built for running smart contract-based applications.",
@@ -8,14 +8,15 @@
   "type": "service",
   "autoupdate": true,
   "image": {
-    "path": "bsc.avado.dnp.dappnode.eth_0.0.2.tar.xz",
-    "hash": "/ipfs/QmVuhdBX5Nwp5p8zCMpMn1FbVH9Nee2UomCTG9z8B4cLG4",
-    "size": 31770532,
+    "path": "bsc.avado.dnp.dappnode.eth_0.0.1.tar.xz",
+    "hash": "/ipfs/Qmef9x1Eeij5bgRBoEzbVUMqF72gtmWnvbwTjD3Rbumv4R",
+    "size": 32815320,
     "restart": "always",
     "environment": [
       "EXTRA_OPTS"
     ],
     "ports": [
+      "80:80",
       "443:443",
       "8545:8545",
       "8546:8546",
@@ -30,7 +31,8 @@
   "author": "AVADO",
   "license": "(C)",
   "links": {
+    "OnboardingWizard": "http://bsc.avadopackage.com",
     "RPC": "https://bsc.avadopackage.com"
   },
-  "builddate": "2021-08-04T19:50:21.800Z"
+  "builddate": "2021-08-05T20:19:43.240Z"
 }
