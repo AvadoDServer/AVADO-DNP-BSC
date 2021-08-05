@@ -80,7 +80,7 @@ const Comp = () => {
                     }
                 </section>
                 <br/>
-                <a href="http://my.avado/#/Packages/avalanchego.avado.dnp.dappnode.eth/detail" target="_blank">show node logs</a>
+                <a href="http://my.avado/#/Packages/bsc.avado.dnp.dappnode.eth/detail" target="_blank">show node logs</a>
             </div>
         </div>
     )

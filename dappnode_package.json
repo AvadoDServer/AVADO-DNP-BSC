@@ -9,8 +9,8 @@
   "autoupdate": true,
   "image": {
     "path": "bsc.avado.dnp.dappnode.eth_0.0.1.tar.xz",
-    "hash": "/ipfs/QmUxL8i9Fu7t381Wp1B9op3ZAkWjCu4fYXSmq1cG5TeqQL",
-    "size": 32780680,
+    "hash": "/ipfs/QmT214BfJ1C82r7LhXLVFHZKEM1tKW6rAy7syqxRerV1Gz",
+    "size": 32819708,
     "restart": "always",
     "environment": [
       "EXTRA_OPTS"
@@ -34,5 +34,5 @@
     "OnboardingWizard": "http://bsc.avadopackage.com",
     "RPC": "https://bsc.avadopackage.com"
   },
-  "builddate": "2021-08-05T20:29:43.281Z"
+  "builddate": "2021-08-05T20:54:55.029Z"
 }
