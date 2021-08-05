@@ -36,7 +36,7 @@ OracleThreshold = 20
 
 [Node]
 IPCPath = "geth.ipc"
-HTTPHost = "localhost"
+HTTPHost = "0.0.0.0"
 NoUSB = true
 InsecureUnlockAllowed = false
 HTTPPort = 8545
